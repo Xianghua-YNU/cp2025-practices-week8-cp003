@@ -115,6 +115,8 @@ def main():
     print("\n收敛阶数分析:")
     print(f"矩形法: {rect_rate:.2f}")
     print(f"梯形法: {trap_rate:.2f}")
+    print(rect_errors)
+    print(trap_errors)
     
     # 时间性能测试
     time_performance_test(a, b)
